@@ -196,7 +196,24 @@ margin-bottom: 0px;
 
 }
 
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -100px;
+    /*margin top and left used negative here because it,s need to be get inside of a picture*/
+}
 
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+.feature-image img{
+      width:100%;
+}
 
 
 
@@ -205,6 +222,7 @@ margin-bottom: 0px;
 @media screen and (max-width: 576px) {
 .navbar, 
 .nav-links,
+.features,
 .teams{
     flex-direction: column;
 }
@@ -224,6 +242,11 @@ margin-bottom: 0px;
     justify-content: center;
     gap: 50px;
 }
+#experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
 }
 
 /* Medium size device tablet */
@@ -238,9 +261,16 @@ margin-bottom: 0px;
 .facts-container{
     grid-template-columns: repeat(2,1fr);
 }
+.features{
+    flex-direction: column;
+}
 .sponsor-companies{
     grid-template-columns: repeat(2,1fr);
     gap: 50px;
 
+}
+#experience-badge{
+    margin-top: 20px;
+    margin-left: 20px;
 }
 }
