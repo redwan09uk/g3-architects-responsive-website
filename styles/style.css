@@ -170,6 +170,36 @@
 .sponsor-companies img{
     filter: grayscale(100%) /*filter used here to make my images gray it was originally color picture*/
 }
+
+/* Features style start here */
+
+.features{
+gap: 140px;
+}
+
+#features-section-title{
+    border-left: 5px solid #FF900E;
+    padding-left: 21px; /*I did not use margin here because it is border it will go then outside so that is the reason used padding*/
+}
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06); /*box-shadow use for three are a shadow for every box*/
+    margin-bottom: 20px;
+
+}
+.feature-card, .features-title{
+font-weight:600;
+font-size: 1.2rem;
+margin-top: 0px;
+margin-bottom: 0px;
+
+}
+
+
+
+
+
 /* responsive media query */
 /* for mobile */
 @media screen and (max-width: 576px) {
@@ -211,5 +241,6 @@
 .sponsor-companies{
     grid-template-columns: repeat(2,1fr);
     gap: 50px;
+
 }
 }
