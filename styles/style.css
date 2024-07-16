@@ -160,6 +160,7 @@
     margin: 50px auto;
     text-align: center;
 
+
 }
 
 .sponsor-companies{
@@ -215,6 +216,26 @@ margin-bottom: 0px;
       width:100%;
 }
 
+/* footer style start here */
+.footer{
+    width:1000px;
+    height: 100px;
+    border-radius: 8px;
+    background: rgb(255, 244, 231);
+    margin-left: 240px;
+    margin-bottom:200px;
+  
+}
+
+.footer-content{
+    
+   font-size: 1.25rem; 
+   font-weight: 400;
+   text-align: center;
+   padding: 20px;
+   
+
+}
 
 
 /* responsive media query */
@@ -248,6 +269,9 @@ margin-bottom: 0px;
 }
 
 }
+
+
+
 
 /* Medium size device tablet */
 
